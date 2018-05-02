@@ -1,0 +1,169 @@
+/*created by jiayuxiang in 2017-10-11*/
+
+
+/*右侧选项*/
+
+.mui-bar-nav {
+	box-shadow: none;
+	border-bottom: 1px solid #DDD;
+	background: #FFF;
+}
+
+header .mui-pull-right {
+	border: none;
+	color: #0D85FD;
+	height: 43px;
+	line-height: 32px;
+}
+
+
+/*展开收起*/
+
+.caozuos {
+	position: absolute;
+	right: 2%;
+	top: 0.2rem;
+	width: 0.8rem;
+	height: 0.8rem;
+	padding: 0.25rem;
+}
+
+.caozuox {
+	display: none;
+	position: absolute;
+	right: 2%;
+	top: 0.2rem;
+	width: 0.8rem;
+	height: 0.8rem;
+	padding: 0.25rem;
+}
+
+.caozuos_img {
+	width: 0.28rem;
+	z-index: 9991;
+}
+
+.caozuox_img {
+	width: 0.28rem;
+	z-index: 9991;
+}
+
+
+/*影像小图标*/
+
+.yingX_img {
+	margin-left: 0.05rem;
+	margin-top: 0.05rem;
+	width: 0.8rem !important;
+	height: 0.8rem !important;
+	line-height: 0.8rem !important;
+	background: #0E86FF;
+	color: #FFF;
+	text-align: center;
+	border-radius: 5%;
+	font-size: 0.4rem;
+}
+
+
+/*分享*/
+
+.share_res {
+	width: 100%;
+	height: 5rem;
+	background-color: #F3F7FA;
+	z-index: 99999;
+	position: fixed;
+	bottom: 0;
+	display: none;
+}
+
+.share_res {
+	width: 100%;
+	height: auto;
+	background-color: #F3F7FA;
+	z-index: 99999;
+	position: fixed;
+	bottom: 0;
+	display: none;
+}
+
+.share_res img {
+	margin-top: 0.2rem;
+}
+
+.share_res p {
+	margin: 0;
+	margin-top: 0.1rem;
+	color: #6B6B6B;
+}
+
+.share_con {
+	border-top: 1px solid #D3D4D4;
+	margin-top: 0.1rem;
+	margin-bottom: 0.1rem;
+}
+
+.share_con div {
+	width: 32%;
+	height: 100%;
+	display: inline-block;
+	/*background-color: #000;*/
+}
+
+.share_con img {
+	width: 0.88rem;
+}
+
+.share_con span {
+	display: block;
+}
+
+
+/*缩略图*/
+
+.report_suolue {
+	width: 94%;
+	height: 3rem;
+	margin-left: 3%;
+	margin-top: 0.2rem;
+	margin-bottom: 0.1rem;
+	padding: 3%;
+	border: 1px solid #DADEE5;
+	border-radius: 8px;
+	position: relative;
+	background: #FFFFFF;
+}
+
+
+/*复选框*/
+
+.mui-checkbox input[type=checkbox]:before,
+.mui-radio input[type=radio]:before {
+	font-size: 0.54rem;
+}
+
+
+/*超出部分省略号*/
+
+.mui-ellipsis {
+	height: 21px;
+}
+
+.mui-ellipsis span {
+	display: inline-block;
+	width: 2rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.mui-popup-input input {
+	height: 30px;
+	border: none;
+	border-bottom: 1px solid rgba(0, 0, 0, .3);
+	background: #FAFAFA;
+}
+
+.mui-table-view-cell:after {
+	left: 0;
+}
